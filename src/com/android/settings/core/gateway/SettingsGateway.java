@@ -130,6 +130,10 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.boron.boronexpand.BoronExpandSettings;
 import com.boron.boronexpand.fragments.HeadsUpSettings;
+import com.boron.boronexpand.fragments.FlingSettings;
+import com.boron.boronexpand.fragments.NavbarSettings;
+import com.boron.boronexpand.fragments.PulseSettings;
+import com.boron.boronexpand.fragments.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -251,6 +255,10 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
 			BoronExpandSettings.class.getName(),
             HeadsUpSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -289,7 +297,11 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
-			//Boron
-			Settings.BoronExpandSettingsActivity.class.getName(),
+			//BoronRom Settings
+            Settings.BoronExpandSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }

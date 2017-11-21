@@ -23,12 +23,12 @@ import com.android.settings.core.PreferenceController;
 import com.android.settings.R;
 import com.android.settings.Utils;
 
-public class LiquidVersionPreferenceController extends PreferenceController {
+public class BoronVersionPreferenceController extends PreferenceController {
 
-    private static final String LIQUID_VERSION = "liquid_version";
-    private static final String LIQUID_PROP = "ro.liquid.version";
+    private static final String BORON_VERSION = "boron_version";
+    private static final String BORON_PROP = "ro.boron.version";
 
-    public LiquidVersionPreferenceController(Context context) {
+    public BoronVersionPreferenceController(Context context) {
         super(context);
     }
 
@@ -39,13 +39,13 @@ public class LiquidVersionPreferenceController extends PreferenceController {
 
     @Override
     public String getPreferenceKey() {
-        return LIQUID_VERSION;
+        return BORON_VERSION;
     }
 
     @Override
     public void updateState(Preference preference) {
         super.updateState(preference);
-        preference.setSummary(SystemProperties.get(LIQUID_PROP,
+        preference.setSummary(SystemProperties.get(BORON_PROP,
                 mContext.getResources().getString(R.string.device_info_default)));
     }
 }

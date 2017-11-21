@@ -23,7 +23,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 
-import com.liquid.liquidlounge.preferences.CustomSeekBarPreference;
+import com.boron.boronexpand.preferences.CustomSeekBarPreference;
 import com.android.settings.core.PreferenceController;
 import com.android.settings.core.instrumentation.MetricsFeatureProvider;
 import com.android.settings.overlay.FeatureFactory;

@@ -35,7 +35,7 @@ import com.android.settings.notification.SoundSettings;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
-import com.liquid.liquidlounge.LiquidLoungeSettings;
+import com.boron.boronexpand.BoronExpandSettings;
 
 import java.util.Map;
 
@@ -88,8 +88,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
         PARENT_TO_CATEGORY_KEY_MAP.put(ConfigureNotificationSettings.class.getName(),
                 CategoryKey.CATEGORY_NOTIFICATIONS);
-		PARENT_TO_CATEGORY_KEY_MAP.put(LiquidLoungeSettings.class.getName(),
-                CategoryKey.CATEGORY_LIQUID);
+		PARENT_TO_CATEGORY_KEY_MAP.put(BoronExpandSettings.class.getName(),
+                CategoryKey.CATEGORY_BORON);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 

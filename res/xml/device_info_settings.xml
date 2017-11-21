@@ -17,16 +17,16 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
-		<!-- LIQUID About -->
+		<!-- BORON About -->
 		<Preference
-		        android:key="liquid_logo"
-				android:layout="@layout/liquid_logo" 
-				android:fragment="com.android.settings.liquid.LiquidAbout" />
+		        android:key="boron_logo"
+				android:layout="@layout/boron_logo" 
+				android:fragment="com.android.settings.boron.BoronAbout" />
 
-		<!-- LIQUID version -->
+		<!-- BORON version -->
         <Preference
-                android:key="liquid_version"
-                android:title="@string/liquid_version"
+                android:key="boron_version"
+                android:title="@string/boron_version"
                 android:summary="@string/device_info_default" />
 
         <!-- System update settings - launches activity -->

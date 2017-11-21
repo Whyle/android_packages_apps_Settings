@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.liquid;
+package com.android.settings.boron;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -23,16 +23,16 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LiquidAbout extends SettingsPreferenceFragment {
+public class BoronAbout extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.liquid_about_info);
+        addPreferencesFromResource(R.xml.boron_about_info);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LIQUID;
+        return MetricsEvent.BORON;
     }
 }

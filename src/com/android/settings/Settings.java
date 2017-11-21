@@ -180,7 +180,7 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class SupportDashboardActivity extends SettingsActivity {}
 	
-	// LiquidRemix Settings
-    public static class LiquidLoungeSettingsActivity extends SettingsActivity {}
+	// BoronRom Settings
+    public static class BoronExpandSettingsActivity extends SettingsActivity {}
 
 }

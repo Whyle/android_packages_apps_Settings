@@ -128,8 +128,8 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.liquid.liquidlounge.LiquidLoungeSettings;
-import com.liquid.liquidlounge.fragments.HeadsUpSettings;
+import com.boron.boronexpand.BoronExpandSettings;
+import com.boron.boronexpand.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -249,7 +249,7 @@ public class SettingsGateway {
             EnterprisePrivacySettings.class.getName(),
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
-			LiquidLoungeSettings.class.getName(),
+			BoronExpandSettings.class.getName(),
             HeadsUpSettings.class.getName(),
     };
 
@@ -289,7 +289,7 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
-			//Liquid
-			Settings.LiquidLoungeSettingsActivity.class.getName(),
+			//Boron
+			Settings.BoronExpandSettingsActivity.class.getName(),
     };
 }

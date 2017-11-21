@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2017 The Nitrogen Project
-     Copyright (C) 2017 The Liquid Remix Project
+     Copyright (C) 2017 The Boron Remix Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 <resources>
 
     <!-- App ops categories -->
-    <string-array name="app_ops_categories_liquid" translatable="false">
+    <string-array name="app_ops_categories_boron" translatable="false">
         <item>@string/app_ops_cat_location</item>
         <item>@string/app_ops_cat_personal</item>
         <item>@string/app_ops_cat_messaging</item>
@@ -28,7 +28,7 @@
     </string-array>
 
     <!-- App ops labels -->
-    <string-array name="app_ops_labels_liquid" translatable="false">
+    <string-array name="app_ops_labels_boron" translatable="false">
         <!-- OP_COARSE_LOCATION -->
         <item>@string/app_ops_access_location</item>
         <!-- OP_FINE_LOCATION -->

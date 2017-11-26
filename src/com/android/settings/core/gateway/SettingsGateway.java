@@ -297,7 +297,7 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
-			             //BoronRom Settings
+			 //BoronRom Settings
                         Settings.BoronExpandSettingsActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2017 The Nitrogen Project
-     Copyright (C) 2017 The Boron Remix Project
+     Copyright (C) 2017 The Boron Rom Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,17 +18,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- BORON Version -->
-    <string name="boron_version">Boron Remix Build</string>
+    <string name="boron_version">Boron Rom Build</string>
 
 	<!-- About BORON -->
-	<string name="boron_about_title">About Boron Remix</string>
+	<string name="boron_about_title">About Boron Rom</string>
 	<string name="boron_about_info">ROM</string>
-	<string name="boron_about_info_summary">Boron Remix is a project reborn by the creator of Boron Smooth.With the help of Dabug123 they have brought back this amazing project based on lineage os with caf on top.</string>
+	<string name="boron_about_info_summary">Boron Rom is a project reborn by the creator of Boron Smooth.With the help of Dabug123 they have brought back this amazing project based on lineage os with caf on top.</string>
 	<string name="boron_about_devs">TeamSmooth</string>
-	<string name="boron_about_dev_title">Ryan B(boron0624)</string>
+
+	<string name="boron_about_dev_title">Jebeyond(jsbeyond)</string>
 	<string name="boron_about_dev_summary">Founder</string>
-	<string name="boron_about_dev2_title">Paul C (Dabug123)</string>
-	<string name="boron_about_dev2_summary">CO-Lead/Kernel Dev</string>
+	<string name="boron_about_dev2_title">Yihao(whyle)</string>
+	<string name="boron_about_dev2_summary">Development</string>
 
 	<!-- Boron Lounge -->
     <string name="boronexpand_title">Boron Lounge</string>
